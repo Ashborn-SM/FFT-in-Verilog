@@ -1,6 +1,6 @@
 module multiplier #(
-	N = 16,
-	Q = 8
+	parameter N = 16,
+	parameter Q = 8
 )
 (
 	input[N-1: 0] A,
